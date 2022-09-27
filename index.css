@@ -1,53 +1,54 @@
-@import "https://unpkg.com/open-props";
+@import 'https://unpkg.com/open-props';
 
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-   background-image: var(--gradient-26);
-   height: 100%;
-   display: grid;
-   place-items: center;
-   font-family: var(--font-serif);
-   font-size: var(--font-size-4);
+  background-image: var(--gradient-26);
+  display: grid;
+  font-family: var(--font-serif);
+  font-size: var(--font-size-4);
+  height: 100%;
+  place-items: center;
 }
 
 section {
-   padding: var(--size-5);
-   background: var(--gray-1);
-   border-radius: var(--radius-2);
-   text-align: center;
-   box-shadow: var(--shadow-3);
+  background: var(--gray-1);
+  border-radius: var(--radius-2);
+  box-shadow: var(--shadow-3);
+  max-width: min(800px, 100vw);
+  padding: var(--size-5);
+  text-align: center;
 }
 
 #number-input {
-   padding: var(--size-1);
+  padding: var(--size-1);
 }
 
 h1,
 p,
 input,
 button {
-   margin-bottom: var(--size-4);
+  margin-bottom: var(--size-4);
 }
 
 h1 {
-   font-size: var(--font-size-5);
-   font-weight: var(--font-weight-9);
-   letter-spacing: var(--font-letterspacing-0);
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-9);
+  letter-spacing: var(--font-letterspacing-0);
 }
 
 button {
-   font-weight: var(--font-weight-7);
-   padding: var(--size-2);
-   color: var(--violet-9);
+  color: var(--violet-9);
+  font-weight: var(--font-weight-7);
+  padding: var(--size-2);
 }
 
 .result {
-   font-weight: var(--font-weight-7);
-   font-size: var(--font-size-6);
-   word-wrap: break-word;
+  font-size: var(--font-size-6);
+  font-weight: var(--font-weight-7);
+  word-wrap: break-word;
 }
